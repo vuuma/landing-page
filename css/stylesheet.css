@@ -66,8 +66,9 @@ ul {
     justify-content: space-around;
 }
 
-.body {
+.sectionOne {
     padding: 0 200px;
+    margin-bottom: 100px;
 }
 
 .body-title {
@@ -88,4 +89,18 @@ ul {
 
 .one, .two, .three, .four {
     width: 100px;
+}
+
+.sectionTwo {
+    background-color: lightgrey;
+    padding: 100px 200px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 20px;
+    font-style: normal;
+    text-align: right;
+    font-weight: bold;
 }
