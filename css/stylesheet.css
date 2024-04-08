@@ -60,3 +60,32 @@ ul {
     display: flex;
     
 }
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.body {
+    padding: 0 200px;
+}
+
+.body-title {
+    text-align: center;
+    margin: 50px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box {
+    border-style: solid;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.one, .two, .three, .four {
+    width: 100px;
+}
