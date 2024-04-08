@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    width: 100vw;
+    min-height: 100vh;
     
 }
 
@@ -124,6 +126,12 @@ ul {
 button {
     flex-shrink: 0;
     flex-grow: 0;
+}
 
-
+footer {
+    text-align: center;
+    background-color:#1F2937;
+    color: white;
+    padding: 20px 0;
+    margin-top: auto;
 }
