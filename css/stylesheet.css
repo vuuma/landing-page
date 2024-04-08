@@ -104,3 +104,26 @@ ul {
     text-align: right;
     font-weight: bold;
 }
+
+.sectionThree {
+    display: flex;
+    margin: 50px 200px;
+    height: 100px;
+    color: white;
+    background-color: rgb(58, 48, 199);
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.sectionThree-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    flex-shrink: 0;
+    flex-grow: 0;
+
+
+}
